@@ -1,0 +1,19 @@
+# Build output
+bin/
+obj/
+src/CryptoCWalletApp/bin/
+src/CryptoCWalletApp/obj/
+
+#IDE settings
+.idea/
+
+# User-specific or local config files
+global.json
+*.user
+
+# Project files to keep (do NOT ignore these!)
+# KEEP: CryptoCWalletApp.sln
+# KEEP: Properties/
+
+# Optional: Ignore development-only config
+appsettings.Development.json
