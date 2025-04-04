@@ -24,3 +24,7 @@ D:\riderProjects\CryptoCWalletApp\src\CryptoCWalletApp\obj\Debug\net9.0\staticwe
 D:\riderProjects\CryptoCWalletApp\src\CryptoCWalletApp\obj\Debug\net9.0\staticwebassets\msbuild.buildMultiTargeting.CryptoCWalletApp.props
 D:\riderProjects\CryptoCWalletApp\src\CryptoCWalletApp\obj\Debug\net9.0\staticwebassets\msbuild.buildTransitive.CryptoCWalletApp.props
 D:\riderProjects\CryptoCWalletApp\src\CryptoCWalletApp\obj\Debug\net9.0\staticwebassets.pack.json
+D:\riderProjects\CryptoCWalletApp\src\CryptoCWalletApp\obj\Debug\net9.0\CryptoCWalletApp.sourcelink.json
+D:\riderProjects\CryptoCWalletApp\src\CryptoCWalletApp\bin\Debug\net9.0\Newtonsoft.Json.dll
+D:\riderProjects\CryptoCWalletApp\src\CryptoCWalletApp\obj\Debug\net9.0\CryptoCWalletApp.csproj.AssemblyReference.cache
+D:\riderProjects\CryptoCWalletApp\src\CryptoCWalletApp\obj\Debug\net9.0\CryptoCW.A4DBC2BC.Up2Date

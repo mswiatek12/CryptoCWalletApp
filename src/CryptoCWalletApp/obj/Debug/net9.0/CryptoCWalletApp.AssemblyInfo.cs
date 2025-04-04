@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("CryptoCWalletApp")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e567de53ec2e61268efca4fe377deaef7d085de9")]
 [assembly: System.Reflection.AssemblyProductAttribute("CryptoCWalletApp")]
 [assembly: System.Reflection.AssemblyTitleAttribute("CryptoCWalletApp")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
