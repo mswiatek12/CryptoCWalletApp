@@ -2,28 +2,6 @@
   "version": 3,
   "targets": {
     "net9.0": {
-      "Binance.Spot/4.1.0": {
-        "type": "package",
-        "dependencies": {
-          "Newtonsoft.Json": "13.0.1"
-        },
-        "compile": {
-          "lib/netstandard2.0/Common.dll": {
-            "related": ".xml"
-          },
-          "lib/netstandard2.0/Spot.dll": {
-            "related": ".xml"
-          }
-        },
-        "runtime": {
-          "lib/netstandard2.0/Common.dll": {
-            "related": ".xml"
-          },
-          "lib/netstandard2.0/Spot.dll": {
-            "related": ".xml"
-          }
-        }
-      },
       "Newtonsoft.Json/13.0.3": {
         "type": "package",
         "compile": {
@@ -40,25 +18,6 @@
     }
   },
   "libraries": {
-    "Binance.Spot/4.1.0": {
-      "sha512": "fc1ZULVPSwX3Y1+1yb9Boj6fw2zSkpkHfDoGsOWa2JJkepyI8AnpggQASexVXHUUP+kPrpVwsPiWySxLNGBdzQ==",
-      "type": "package",
-      "path": "binance.spot/4.1.0",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "CHANGELOG.md",
-        "LICENSE.md",
-        "README.md",
-        "binance.spot.4.1.0.nupkg.sha512",
-        "binance.spot.nuspec",
-        "icon.png",
-        "lib/netstandard2.0/Common.dll",
-        "lib/netstandard2.0/Common.xml",
-        "lib/netstandard2.0/Spot.dll",
-        "lib/netstandard2.0/Spot.xml"
-      ]
-    },
     "Newtonsoft.Json/13.0.3": {
       "sha512": "HrC5BXdl00IP9zeV+0Z848QWPAoCr9P3bDEZguI+gkLcBKAOxix/tLEAAHC+UvDNPv4a2d18lOReHMOagPa+zQ==",
       "type": "package",
@@ -92,7 +51,6 @@
   },
   "projectFileDependencyGroups": {
     "net9.0": [
-      "Binance.Spot >= 4.1.0",
       "Newtonsoft.Json >= 13.0.3"
     ]
   },
@@ -140,10 +98,6 @@
       "net9.0": {
         "targetAlias": "net9.0",
         "dependencies": {
-          "Binance.Spot": {
-            "target": "Package",
-            "version": "[4.1.0, )"
-          },
           "Newtonsoft.Json": {
             "target": "Package",
             "version": "[13.0.3, )"
