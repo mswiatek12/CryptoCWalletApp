@@ -17,13 +17,14 @@ builder.Services.AddSwaggerGen(options =>
 
 builder.Services.AddSingleton<HttpClient>();
 
-// Use Scoped for services that depend on scoped dependencies like AppDbContext
 builder.Services.AddScoped<CryptoService>();
 
 builder.Services.AddControllers();
 
 builder.Services.AddDbContext<AppDbContext>(options =>
     options.UseNpgsql(builder.Configuration.GetConnectionString("DefaultConnection")));
+
+builder.Services.AddHostedService<CryptoBackgroundService>();
 
 var app = builder.Build();
 

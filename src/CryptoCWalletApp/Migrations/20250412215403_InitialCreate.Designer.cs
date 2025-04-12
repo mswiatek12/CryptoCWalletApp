@@ -11,7 +11,7 @@ using Npgsql.EntityFrameworkCore.PostgreSQL.Metadata;
 namespace CryptoCWalletApp.Migrations
 {
     [DbContext(typeof(AppDbContext))]
-    [Migration("20250412192027_InitialCreate")]
+    [Migration("20250412215403_InitialCreate")]
     partial class InitialCreate
     {
         /// <inheritdoc />
@@ -31,6 +31,9 @@ namespace CryptoCWalletApp.Migrations
 
                     b.Property<decimal?>("LastUpdatedAt")
                         .HasColumnType("numeric");
+
+                    b.Property<string>("Symbol")
+                        .HasColumnType("text");
 
                     b.Property<decimal?>("Usd")
                         .HasColumnType("numeric");

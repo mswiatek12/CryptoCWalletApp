@@ -29,6 +29,9 @@ namespace CryptoCWalletApp.Migrations
                     b.Property<decimal?>("LastUpdatedAt")
                         .HasColumnType("numeric");
 
+                    b.Property<string>("Symbol")
+                        .HasColumnType("text");
+
                     b.Property<decimal?>("Usd")
                         .HasColumnType("numeric");
 

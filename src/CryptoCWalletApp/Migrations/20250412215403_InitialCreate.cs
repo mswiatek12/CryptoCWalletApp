@@ -15,6 +15,7 @@ namespace CryptoCWalletApp.Migrations
                 columns: table => new
                 {
                     Id = table.Column<string>(type: "text", nullable: false),
+                    Symbol = table.Column<string>(type: "text", nullable: true),
                     Usd = table.Column<decimal>(type: "numeric", nullable: true),
                     UsdMarketCap = table.Column<decimal>(type: "numeric", nullable: true),
                     Usd24HVol = table.Column<decimal>(type: "numeric", nullable: true),
