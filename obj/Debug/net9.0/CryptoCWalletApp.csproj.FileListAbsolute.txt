@@ -1,7 +1,0 @@
-D:\riderProjects\CryptoCWalletApp\obj\Debug\net9.0\CryptoCWalletApp.GeneratedMSBuildEditorConfig.editorconfig
-D:\riderProjects\CryptoCWalletApp\obj\Debug\net9.0\CryptoCWalletApp.AssemblyInfoInputs.cache
-D:\riderProjects\CryptoCWalletApp\obj\Debug\net9.0\CryptoCWalletApp.AssemblyInfo.cs
-D:\riderProjects\CryptoCWalletApp\obj\Debug\net9.0\CryptoCWalletApp.csproj.CoreCompileInputs.cache
-D:\riderProjects\CryptoCWalletApp\obj\Debug\net9.0\CryptoCWalletApp.MvcApplicationPartsAssemblyInfo.cache
-D:\riderProjects\CryptoCWalletApp\obj\Debug\net9.0\CryptoCWalletApp.csproj.AssemblyReference.cache
-D:\riderProjects\CryptoCWalletApp\obj\Debug\net9.0\CryptoCWalletApp.sourcelink.json
