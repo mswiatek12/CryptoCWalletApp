@@ -9,7 +9,8 @@ The goal of this application is to fetch and display cryptocurrency data using t
 - ASP.NET Core (.NET 9)
 - C#
 - CoinGecko API
-- PostgreSQL (planned)
+- PostgreSQL
+- Docker
 - Newtonsoft.Json
 
 ## 📦 Features in Progress
